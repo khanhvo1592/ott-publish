@@ -32,10 +32,36 @@
     </style>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">OTT Workflow</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#step1">Bước 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#step2">Bước 2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#step3">Bước 3</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#step4">Bước 4</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <div class="container my-5">
         <h1 class="text-center mb-5">Quy Trình Upload Nội Dung Lên Các Nền Tảng OTT</h1>
 
-        <div class="process-section">
+        <div class="process-section" id="step1">
             <h2><span class="step-number">1</span>Thu Thập và Chuẩn Bị Nội Dung</h2>
             <div class="step-content">
                 <h4>Bước 1: Nhận Nội Dung</h4>
@@ -52,7 +78,7 @@
             </div>
         </div>
 
-        <div class="process-section">
+        <div class="process-section" id="step2">
             <h2><span class="step-number">2</span>Tiền Xử Lý Nội Dung</h2>
             <div class="step-content">
                 <h4>Bước 3: Chuyển Đổi Định Dạng</h4>
@@ -69,7 +95,7 @@
             </div>
         </div>
 
-        <div class="process-section">
+        <div class="process-section" id="step3">
             <h2><span class="step-number">3</span>Kiểm Tra và Phê Duyệt Nội Dung</h2>
             <div class="step-content">
                 <h4>Bước 5: Kiểm Tra Chất Lượng Nội Dung</h4>
@@ -87,7 +113,7 @@
             </div>
         </div>
 
-        <div class="process-section">
+        <div class="process-section" id="step4">
             <h2><span class="step-number">4</span>Xuất Bản Lên Các Nền Tảng OTT</h2>
             <div class="step-content">
                 <h4>Bước 7: Upload và Phân Phối Nội Dung</h4>
@@ -128,6 +154,8 @@
                 </ul>
             </div>
         </div>
+    </div>
+
     <footer class="text-center mt-4" style="background-color: black; color: white;">
         <p>Author: <a href="mailto:khanhvo1592@gmail.com" style="color: white;">khanhvo1592@gmail.com</a></p>
     </footer>
